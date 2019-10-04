@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PHẦN 1. BÀI TOÁN LIỆT KÊ | Algorithm With C++</title>
+    <meta name="description" content="Learning Algorithm With C++">
+    
+    
+    <link rel="preload" href="/alcii/assets/css/0.styles.19ff514e.css" as="style"><link rel="preload" href="/alcii/assets/js/app.13b085eb.js" as="script"><link rel="preload" href="/alcii/assets/js/2.2a0113d9.js" as="script"><link rel="preload" href="/alcii/assets/js/6.7e38fb59.js" as="script"><link rel="prefetch" href="/alcii/assets/js/10.32533794.js"><link rel="prefetch" href="/alcii/assets/js/11.cf24613b.js"><link rel="prefetch" href="/alcii/assets/js/3.1595f84b.js"><link rel="prefetch" href="/alcii/assets/js/4.65712b2d.js"><link rel="prefetch" href="/alcii/assets/js/5.c8f30f2c.js"><link rel="prefetch" href="/alcii/assets/js/7.90315620.js"><link rel="prefetch" href="/alcii/assets/js/8.334f2d4e.js"><link rel="prefetch" href="/alcii/assets/js/9.9320372b.js">
+    <link rel="stylesheet" href="/alcii/assets/css/0.styles.19ff514e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/alcii/" class="home-link router-link-active"><!----> <span class="site-name">Algorithm With C++</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/alcii/" class="sidebar-heading clickable router-link-active open"><span>Giới thiệu</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/alcii/introdution/intro.html" class="sidebar-link">Tác giả</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/alcii/algorithm-and-data-structure" class="sidebar-heading clickable router-link-active"><span>DSAP Textbook</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="phan-1-bai-toan-liet-ke"><a href="#phan-1-bai-toan-liet-ke" aria-hidden="true" class="header-anchor">#</a> PHẦN 1. BÀI TOÁN LIỆT KÊ</h1> <p>Có một số bài toán trên thực tế yêu cầu chỉ rõ: trong một tập các đối
+tượng cho trước có bao nhiêu đối tượng thoả mãn những điều kiện nhất
+định. Bài toán đó gọi là <code>bài toán đếm</code>.</p> <p>Trong lớp các bài toán đếm, có những bài toán còn yêu cầu chỉ rõ những
+cấu hình tìm được thoả mãn điều kiện đã cho là những cấu hình nào. Bài
+toán yêu cầu đưa ra danh sách các cấu hình có thể có gọi là <code>bài toán liệt kê</code>.</p> <p>Để giải bài toán liệt kê, cần phải xác định được một <code>thuật toán</code> để có thể
+theo đó lần lượt xây dựng được tất cả các cấu hình đang quan tâm. Có
+nhiều phương pháp liệt kê, nhưng chúng cần phải đáp ứng được hai yêu
+cầu dưới đây:</p> <ul><li>Không được lặp lại một cấu hình</li> <li>Không được bỏ sót một cấu hình</li></ul> <p>Có thể nói rằng, phương pháp liệt kê là phương kế cuối cùng để giải
+được một số bài toán tổ hợp hiện nay. Khó khăn chính của phương pháp
+này chính là sự bùng nổ tổ hợp dẫn tới sự đòi hỏi lớn về không gian và
+thời gian thực hiện chương trình. Tuy nhiên cùng với sự phát triển của
+máy tính điện tử, bằng phương pháp liệt kê, nhiều bài toán tổ hợp đã tìm
+thấy lời giải. Qua đó, ta cũng nên biết rằng <code>chỉ nên dùng phương pháp liệt kê khi không còn một phương pháp nào khác</code> tìm ra lời giải.</p> <p>Chính những nỗ lực giải quyết các bài toán thực tế không dùng phương
+pháp liệt kê đã thúc đẩy sự phát triển của nhiều ngành toán học.</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/alcii/assets/js/app.13b085eb.js" defer></script><script src="/alcii/assets/js/2.2a0113d9.js" defer></script><script src="/alcii/assets/js/6.7e38fb59.js" defer></script>
+  </body>
+</html>
