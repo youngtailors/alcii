@@ -42,19 +42,7 @@ module.exports = {
                             {
                                 title: '§2. PHƯƠNG PHÁP SINH (GENERATION)',
                                 path:
-                                    '/algorithm-and-data-structure/chap-one/lesson-two/lessontwo',
-                                children: [
-                                    {
-                                        title: 'Thứ tự từ điển',
-                                        path:
-                                            '/algorithm-and-data-structure/chap-one/lesson-two/dictionaryorder',
-                                    },
-                                    {
-                                        title: 'SINH CÁC DÃY NHỊ PHÂN ĐỘ DÀI N',
-                                        path:
-                                            '/algorithm-and-data-structure/chap-one/lesson-two/binaryarraygeneration',
-                                    },
-                                ],
+                                    '/algorithm-and-data-structure/chap-one/lessontwo',
                             },
                         ],
                     },
